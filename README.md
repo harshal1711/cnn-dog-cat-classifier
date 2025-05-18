@@ -16,7 +16,7 @@ This project tackles the classic image classification task from the [Kaggle "Dog
 
 ### ✅ Transfer Learning with EfficientNetB0
 
-We leveraged **EfficientNetB0**, a pretrained convolutional neural network trained on ImageNet. The training followed a **two-phase transfer learning strategy**:
+I leveraged **EfficientNetB0**, a pretrained convolutional neural network trained on ImageNet. The training followed a **two-phase transfer learning strategy**:
 
 #### Phase 1: Feature Extraction
 - **Logic**: Initially froze all pretrained layers to retain generalized feature detectors (edges, shapes, textures).
@@ -32,7 +32,7 @@ We leveraged **EfficientNetB0**, a pretrained convolutional neural network train
 
 ### 🔁 Cross-Validation for Robustness
 
-To ensure the model's performance generalized well across different data splits, we implemented **5-fold cross-validation** during training. This helped evaluate variance in performance, reduce overfitting, and confirm the model’s stability across diverse subsets of the training data.
+To ensure the model's performance generalized well across different data splits, I implemented **5-fold cross-validation** during training. This helped evaluate variance in performance, reduce overfitting, and confirm the model’s stability across diverse subsets of the training data.
 
 ---
 
