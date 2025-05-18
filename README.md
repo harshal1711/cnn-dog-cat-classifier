@@ -4,7 +4,7 @@ This project tackles the classic image classification task from the [Kaggle "Dog
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
 - **Total Images**: 25,000 (12,500 dogs + 12,500 cats)
 - **Input Format**: RGB JPEG images (~250x250 px)
@@ -12,9 +12,9 @@ This project tackles the classic image classification task from the [Kaggle "Dog
 
 ---
 
-## 🧠 Modeling Approach
+## Modeling Approach
 
-### ✅ Transfer Learning with EfficientNetB0
+### Transfer Learning with EfficientNetB0
 
 I leveraged **EfficientNetB0**, a pretrained convolutional neural network trained on ImageNet. The training followed a **two-phase transfer learning strategy**:
 
@@ -30,13 +30,13 @@ I leveraged **EfficientNetB0**, a pretrained convolutional neural network traine
 
 ---
 
-### 🔁 Cross-Validation for Robustness
+### Cross-Validation for Robustness
 
 To ensure the model's performance generalized well across different data splits, I implemented **5-fold cross-validation** during training. This helped evaluate variance in performance, reduce overfitting, and confirm the model’s stability across diverse subsets of the training data.
 
 ---
 
-## 🧪 Model Evaluation & Results
+## Model Evaluation & Results
 
 - **Validation Accuracy (EfficientNet only)**: ~94%
 - **Private Leaderboard Score (EfficientNet)**: **0.05789**
@@ -45,6 +45,6 @@ To ensure the model's performance generalized well across different data splits,
 
 ---
 
-## 🖼️ Kaggle Submission Screenshot
+## Kaggle Submission Screenshot
 
 ![Kaggle Submission Screenshot](Images/Kaggle_Submission.png)
