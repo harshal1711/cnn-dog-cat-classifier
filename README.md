@@ -47,4 +47,4 @@ To ensure the model's performance generalized well across different data splits,
 
 ## 🖼️ Kaggle Submission Screenshot
 
-![Kaggle Submission Screenshot](Images/Kaggle%20Submission.png)
+![Kaggle Submission Screenshot](Images/Kaggle_Submission.png)
